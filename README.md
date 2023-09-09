@@ -27,7 +27,7 @@ The dataset consists of 779 individuals data. There are 15 columns in the datase
    11. Peak exercise ST segment : 1 = upsloping 2 = flat 3 = downsloping
    12. Number of major vessels (0-3) colored by flourosopy : displays the value as integer or float.
    13. Thal : displays the thalassemia : 3 = normal 6 = fixed defect 7 = reversable defect
-   14. Diagnosis of heart disease : Displays whether the individual is suffering from heart disease or not : 0 = absence 1,2,3,4 = present.
+   14. Diagnosis of heart disease : Displays whether the individual is suffering from heart disease or not : 0 = absence 1 = present.
 
 ## Model Training and Prediction-
 We can train our prediction model by analyzing existing data because we already know whether each patient has heart disease. This process is also known as supervision and learning. The trained model is then used to predict if users suffer from heart disease. The training and prediction process is described as follows:
